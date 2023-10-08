@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload de Imagens e PDFs</title>
+</head>
+<body>
+    <h1>Upload de Imagens e PDFs</h1>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <label for="imagem">Escolha uma imagem:</label>
+        <input type="file" name="imagem" id="imagem" accept="image/*">
+        <br>
+        <label for="pdf">Escolha um PDF:</label>
+        <input type="file" name="pdf" id="pdf" accept=".pdf">
+        <br>
+        <input type="submit" value="Enviar Arquivos">
+    </form>
+</body>
+</html>
